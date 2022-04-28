@@ -2,18 +2,18 @@
 
 Requirements:
 ---
-Python 3.10 features have been used so please use Python 3.10.
-Poetry was used to manage dependencies so Poetry is required. If Poetry is not already installed on your system you may either want to install it into a virtual environment or use PipX to install it in its own isolated environment.
-Make was used to manage small tasks and will be required to run tasks easily.
-To set the server to development mode one should have an exported environment variable named `DEV` with the value of `true`.
+- Python 3.10 features have been used so please use Python 3.10.
+- Poetry was used to manage dependencies so Poetry is required. If Poetry is not already installed on your system you may either want to install it into a virtual environment or use PipX to install it in its own isolated environment.
+- Make was used to manage small tasks and will be required to run tasks easily.
+- To set the server to development mode one should have an exported environment variable named `DEV` with the value of `true`.
 
 Interacting with the application:
 ---
-There is a Makefile where you may find common commands.
-To initialize the application ensure you have Poetry installed and run `make init`, this will install dependencies and set up your shell.
-To test the application you may run `make test`.
-For formatting and linting you may run `make clean`.
-To serve the application with Flask's server you may run `make run` and visit the application at http://127.0.0.1:5000.
+- There is a Makefile where you may find common commands.
+- To initialize the application ensure you have Poetry installed and run `make init`, this will install dependencies and set up your shell.
+- To test the application you may run `make test`.
+- For formatting and linting you may run `make clean`.
+- To serve the application with Flask's server you may run `make run` and visit the application at http://127.0.0.1:5000.
 
 Endpoints:
 ---
