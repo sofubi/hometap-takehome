@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hometap_exercise"
+version = "0.1.0"
+description = ""
+authors = ["Thomas Lawton <thomaslawton91@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.1.1"
+httpx = "^0.22.0"
+StrEnum = "^0.4.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+mypy = "^0.942"
+pytest-httpx = "^0.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
